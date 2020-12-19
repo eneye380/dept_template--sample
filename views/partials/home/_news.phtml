@@ -1,0 +1,80 @@
+<?php $news = $this->news;?>
+<section class="blog section" style="background:#ccc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>Latest <span>News</span></h2>
+                            <!--p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blog-slider">
+        <?php if (count($news) > 0) {?>
+            <?php foreach ($news as $news_item) : ?>
+                <?php if (isset($news_item['publish']) && $news_item['publish']) {?>
+                            <!-- Single Blog -->
+                            <div class="single-blog">
+                                <div class="blog-head overlay">
+                    <?php
+                    $arr = explode(' ', $news_item['date']);
+
+                    ?>
+                                    <div class="date">
+                                        <h4><?=$arr[0]?><span><?=$arr[1]?></span></h4>
+                                    </div>
+                                    <img src="assets/images/800x550.png" alt="#">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 class="blog-title"><a href="/news.php?id=<?php echo $news_item['id']?>"><?php echo $news_item['title']?></a></h4>
+                                    <div class="blog-info">
+                                        <a href="#"><i class="fa fa-user"></i>By: <?php echo $news_item['author']?></a>
+                                        <a href="#"><i class="fa fa-list"></i><?php echo $news_item['category']?></a>
+                                        <!--a href="#"><i class="fa fa-heart-o"></i>53K</a-->
+                                    </div>
+                                    <p>
+                                    <?php 
+                                        echo substr($news_item['summary'], 0, 120);
+                                    ?>
+                                    </p>
+                                    <div class="button">
+                                        <a href="/news.php?id=<?php echo $news_item['id']?>" class="btn">Read More<i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Blog -->
+                <?php } ?>
+            <?php endforeach ?>
+        <?php } else { ?>
+                            <p>No News </p>
+        <?php } ?>
+                            <!-- Single Blog -->
+                            <!--div class="single-blog">
+                                <div class="blog-head overlay">
+                                    <div class="date">
+                                        <h4>05<span>May</span></h4>
+                                    </div>
+                                    <img src="assets/images/800x550.png" alt="#">
+                                </div>
+                                <div class="blog-content">
+                                    <h4 class="blog-title"><a href="blog-single.html">Our teachers egestas erat dignissim</a></h4>
+                                    <div class="blog-info">
+                                        <a href="#"><i class="fa fa-user"></i>By: Admin</a>
+                                        <a href="#"><i class="fa fa-list"></i>Academic</a>
+                                        <a href="#"><i class="fa fa-heart-o"></i>33K</a>
+                                    </div>
+                                    <p>Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim. Et harum quidem rerum facilis est et expedita distinctio</p>
+                                    <div class="button">
+                                        <a href="blog-single.html" class="btn">Read More<i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div-->
+                            <!-- End Single Blog -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

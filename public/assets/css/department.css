@@ -1,0 +1,206 @@
+html,
+body {
+    background: #fefefe;
+    color: #414141;
+    font-size: 100%;
+    /*overflow-x: hidden;*/
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: 'liga'1, 'onum'1;
+    font-feature-settings: 'liga'1, 'onum'1;
+    font-family: 'Merriweather Light', 'Times New Roman', serif !important;
+    /*font-family: 'Montserrat',sans-serif !important;*/
+    font-weight: 300;
+    font-style: normal;
+}
+
+body p {
+    color: #414141;
+    margin: 0;
+    padding: 0 0 1.75em 0;
+    font-size: 1.35rem;
+    line-height: 1.75em;
+}
+
+.faq-body li{
+    font-size: 1.35rem;
+}
+
+.single-team .image img{
+    height: 270px;
+}
+
+.faq .faq-title a{
+    font-size: 1.45rem;
+}
+
+.footer-link {
+    position: relative;
+    top: 31%;
+    font-size: 28px;
+}
+
+.footer-link p {
+    color: #ccc;
+}
+
+.footer-link a {
+    text-decoration: underline;
+}
+
+.footer-link a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer a{
+    color: #ccc;
+}
+
+.footer .about h4 {
+    color: white;
+    margin-top: 13px;
+}
+
+.footer .about p {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: -1px;
+}
+
+.header .logo img {
+    margin-bottom: 34px;
+    width: 90px;
+    vertical-align: middle;
+}
+
+.header .department-label h3 {
+    font-size: 2rem;
+    color: #00897b;
+    color: #a51c30;
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+    /*font-family: MessinaSans,sans-serif;*/
+}
+
+.header .department-label h5 {
+    font-size: 1.55rem;
+    color: #707070;
+    font-family: 'Merriweather Light', 'Times New Roman', serif;
+}
+
+.header .content .mobile-name,
+.header .content .mobile-name--inst {
+    display: none;
+}
+
+h1.page-title{
+    color: #00897b;
+
+    font-size: 38px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.home-slider .single-slider {
+    /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    height: 650px;*/
+    
+}
+
+.home-slider .overlay::before{
+    opacity: 0 !important;
+}
+
+.home-slider .slider-text p{
+    color: black !important;
+    font-weight: 400 !important;
+    font-size: 1.15rem !important;
+}
+
+@media only screen and (max-width: 802px) {
+    .navbar div.button a{
+        display: none;
+    }
+}
+
+    @media only screen and (max-width: 768px) {
+
+        .single-team .image img{
+            height: 470px;
+        }
+
+        .header h1 {
+            background-color: lightblue !important;
+        }
+
+        .header .logo img {
+            width: 60px;
+            margin-bottom: 0;
+            vertical-align: middle;
+        }
+
+        .header .department-label {
+            display: none;
+        }
+
+        .header .content li,
+        .header .social li {
+            display: none;
+        }
+
+        .header .content .mobile-name,
+        .header .content .mobile-name--inst {
+            display: block;
+        }
+
+        .header .content .mobile-name {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .header .content .mobile-name-inst {
+            font-size: 1rem;
+            /*color: #ccc;*/
+            color: #a51c30 !important;
+        }
+
+        .header .content p {
+            line-height: 1em;
+            padding: 0;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        img.hod_img{
+            width:60%;
+        }
+
+        .footer .single-widget h2:before{
+            position: absolute;
+            bottom: -1px;
+            left: 1;
+            visibility: hidden;
+        }
+
+    }
+
+    .brand-fac a{
+        /*font-family: 'Montserrat',sans-serif !important;*/
+        color: #FFF !important;
+        text-decoration: underline;
+        text-transform: uppercase;
+        /*font-size: larger;*/
+    }
+
+    .brand-fac a:hover{
+        text-decoration: none;
+        /*color:#a51c30 !important;*/
+        color:#ccc !important;
+        font-family: 'Montserrat',sans-serif !important;
+    }

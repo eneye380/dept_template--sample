@@ -1,0 +1,66 @@
+
+		<!-- Slider Area -->
+		<?php //$this->include("home/_slider.phtml") ?>
+		<!--/ End Slider Area -->
+		
+		<!-- Features -->
+		
+		<!-- End Features -->
+		
+		<!-- Enroll -->
+		
+		<!--/ End Enroll -->
+
+		<!-- Courses -->
+	
+		<!--/ End Courses -->	
+		
+		<!-- Call To Action -->
+	
+		<!--/ End Call To Action -->
+		
+		<!-- Team -->
+	
+		<!--/ End Team -->
+		
+		<!-- Testimonials -->
+		
+		<!--/ End Testimonials -->
+		
+		<!-- Events -->
+		
+		<!--/ End Events -->
+		
+		<!-- Fun Facts -->
+		
+		<!--/ End Fun Facts -->
+
+		<!-- About US -->
+		<section class="about-us section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 text-center single-team">
+                    <div class="single-image overlay image">
+                        <img src="<?=$this->head_img_url?>" alt="HOD, <?=$this->head_name?>" class="hod_img">
+                        <h5 class="title"><?=$this->head_name?></h5>
+                    </div>
+                    <p><?php echo isset($this->headTitle) && !empty($this->headTitle) ? $this->headTitle:'Head' ?></p>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <div class="about-text">
+                        <h2>Welcome Message</h3>
+							<?php echo isset($this->welcome_message) && !empty($this->welcome_message) ? $this->welcome_message:'' ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+	<!--/ End About US -->
+	
+	<!-- Blogs -->
+	<?php //$this->include("home/_news.phtml") ?>
+	<?php //$this->include("home/_news-others.phtml") ?>
+		<!--/ End Blogs -->
+		
+		

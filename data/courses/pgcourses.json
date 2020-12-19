@@ -1,0 +1,163 @@
+{
+    "800": [
+
+        {
+            "code": "VMTP801",
+            "title": "Theriogenology Clinics I",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP803",
+            "title": "Advanced Diagnostic Techniques in Reproduction",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMMD845",
+            "title": "Clinical Research Methods and Experimental Design",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP881, 883,885,887,889",
+            "title": "Seminar (MSc)",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP805",
+            "title": "Comparative Mammalian Reproduction (2-0)",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP807",
+            "title": "Veterinary Obstetrics I (Food Animal and Equine) (2 -1)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP809",
+            "title": "Reproductive Herd Health Management (1 -1)",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMTP811",
+            "title": "Artificial Insemination and Reproductive Biotechnology (2-1)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        }, {
+            "code": "VMTP813",
+            "title": "Veterinary Andrology I (Food Animal and Equine) (2-1)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        }, {
+            "code": "VMTP807",
+            "title": "Advanced Embryology (2 -0)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        }, {
+            "code": "VMTP815",
+            "title": "Reproductive Endocrinology (1-1)",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        }, {
+            "code": "VMTP817",
+            "title": "VMTP817 Gynaecology of Domestic Animals (2-1)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        }, {
+            "code": "VMTP829",
+            "title": "Advanced Metabolic Diseases (2-0)",
+            "cu": "3",
+            "summary": "",
+            "semester": "1"
+        }
+
+        , {
+            "code": "VMTP802",
+            "title": "Infertility and Sterility",
+            "cu": "2",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMTP804",
+            "title": "Veterinary Andrology II (Small Animal and Wild life)",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMSR813",
+            "title": "Advanced Ultrasonography & CT",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }
+
+
+
+        , {
+            "code": "VMTP806",
+            "title": "Lactation and Udder Health Management",
+            "cu": "2",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMPY808",
+            "title": "Reproductive Physiology",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMTP812",
+            "title": "Veterinary Obstetrics II (Small Animal and wild Life)",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMTP814",
+            "title": "Reproductive Endocrinology 2(1 – 1)",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMMD802",
+            "title": "Advanced Nutritional Diseases",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMTP816",
+            "title": "Livestock Production Health",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMSR802",
+            "title": "LAdvanced Large Animal Mammary Gland Surgery",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }, {
+            "code": "VMAN806",
+            "title": "Advanced Teratology",
+            "cu": "3",
+            "summary": "",
+            "semester": "2"
+        }
+    ]
+}

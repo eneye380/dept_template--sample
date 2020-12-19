@@ -1,0 +1,73 @@
+[{
+        "id":1,    
+        "name": "Mr. Emmanuel NWOSU",
+        "img_url": "assets/images/people/technologist/nwosu.jpg",
+        "rank": "Chief Technologist",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    },
+    {
+        "id":2,
+        "name": "Mr. Sani ABDULRAZAK ",
+        "img_url": "assets/images/people/technologist/abdulrazak.JPG",
+        "rank": "Technologist II",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    },
+    {
+        "id":3,
+        "name": "Idris AHMED",
+        "img_url": "assets/images/people/technologist/ahmed.jpg",
+        "rank": "Technologist II",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    },
+    {
+        "id":4,
+        "name": "Shehu WAKALA",
+        "img_url": "assets/images/people/technologist/shehu.jpg",
+        "rank": "Chief Livestock Keeper",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    },
+    {
+        "id":5,
+        "name": "Daiyabu DAHIRU",
+        "img_url": "assets/images/people/technologist/dahiru.jpg",
+        "rank": "Technical Officer",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    },
+    {
+        "id":6,
+        "name": "Umar ALIYU",
+        "img_url": "assets/images/people/technologist/male.jpeg",
+        "rank": "Laboratory Assistant",
+        "phone": "",
+        "email":"",
+        "brief":"",
+        "cv":"",
+        "active":true,
+        "url":"technologist.php?id="
+    }
+]

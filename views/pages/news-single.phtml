@@ -1,0 +1,83 @@
+<?php
+    $single_news = $this->singleNews;
+    $news = $this->news;
+?>
+<!-- Blog Single -->
+<section class="blog b-archives single section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div class="blog-detail">
+                            <div class="b-gallery">
+                                <div class="single-image">
+                                    <img src="assets/images/800x550.png" alt="#">
+                                </div>
+                                <div class="single-image">
+								<img src="assets/images/800x550.png" alt="#">
+                                </div>
+                                <div class="single-image">
+								<img src="assets/images/800x550.png" alt="#">
+                                </div>
+                            </div>
+                            <div class="detail-content">
+                                <div class="blog-info">
+                                    <a href="#"><i class="fa fa-user"></i><?php echo $single_news['author']?></a>
+                                    <a href="#"><i class="fa fa-calendar"></i><?php echo $single_news['date']?></a>
+                                    <a href="#"><i class="fa fa-bolt"></i><?php echo $single_news['category']?></a>
+                                </div>
+                                <h2 class="blog-title"><a href="#"><?php echo $single_news['title']?></a></h2>
+                                <p><?php echo $single_news['body']?></p>
+                                
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="learnedu-sidebar">
+                            <!-- Posts -->
+                            <div class="single-widget posts">
+                                <h3>Recent <span>Posts</span></h3>
+                                <?php $i = 0 ?>
+                                <?php if(count($news)>0) : 
+                                    ?>
+                                    <?php foreach($news as $news_single) : ?>
+                                        <?php if($news_single['id'] != $single_news['id']) :
+                                            ?>
+                                        <div class="single-post">
+                                    <div class="post-img">
+                                        <img src="assets/images/150x150.png" alt="<?php echo $news_single['title']?>">
+                                    </div>
+                                    <div class="post-info">
+                                        <h4><a href="/news.php?id=<?php echo $news_single['id']?>"><?php echo $news_single['title']?></a></h4>
+                                        <span><i class="fa fa-calendar"></i><?php echo $news_single['date']?></span>
+                                    </div>
+                                    </div>
+                                    
+                                            <?php 
+                                            if($i == 4 ) :
+                                                break;
+                                            endif;
+                                            ?>
+                                        <?php endif; ?>
+                                        <?php $i = $i + 1; ?>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                                
+                                <!--div class="single-post">
+                                    <div class="post-img">
+                                        <img src="http://via.placeholder.com/150x150" alt="#">
+                                    </div>
+                                    <div class="post-info">
+                                        <h4><a href="#">velit mauris pharetra ligula, luctus suscipit dui dui </a></h4>
+                                        <span><i class="fa fa-calendar"></i>April 10, 2018</span>
+                                    </div>
+                                </div-->
+                                
+                            </div>
+                            <!--/ End Posts -->
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End Blog Single -->

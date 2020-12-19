@@ -1,0 +1,52 @@
+<?php
+$page = $this->vPage;
+?>
+<div class="header-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<nav class="navbar navbar-default">
+								<div class="navbar-collapse">
+									<!-- Main Menu -->
+									<ul id="nav" class="nav menu navbar-nav">
+										<li class="<?php echo $page=='index'?'active':''; ?>"><a href="./">Home</a></li>
+										<li class="<?php echo $page=='about'?'active':''; ?>"><a href="#">About<i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown">
+												<li><a href="about-us.php">About Us</a></li>
+												<li><a href="advisers.php">Advisers</a></li>
+											</ul>
+										</li>
+										<li class="<?php echo $page=='org'?'active':''; ?>"><a href="#">Organization<i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown">
+												<li><a href="hods.php">Heads of Department</a></li>
+												<!--li><a href="secretaries.php">Secretary</a></li-->
+											</ul>
+										</li>
+										<li class="<?php echo $page=='people'?'active':''; ?>"><a href="#">People<i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown">
+												<li><a href="academic.php">Academic Staff</a></li>
+												<!--li><a href="technologist.php">Technologist Staff</a></li-->
+												<li><a href="administrative.php">Administrative Staff</a></li>
+											</ul>
+										</li>
+										<li class="<?php echo $page=='programmes'?'active':''; ?>"><a href="programmes.php">Programmes<i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown">
+												<li><a href="undergraduate.php">Undergraduate</a></li>
+												<li><a href="postgraduate.php">Postgraduate</a></li>
+											</ul>
+										</li>
+										<!--li class="<?php echo $page=='programmes'?'active':''; ?>"><a href="programmes.php">Programmes</a></li-->
+										<li class="<?php echo $page=='contact'?'active':''; ?>"><a href="contact.php">Contact</a></li>
+									</ul>
+									<!-- End Main Menu -->
+									<!-- button -->
+									<div class="button">
+										<a href="http://forms.abu.edu.ng" target="_blank" class="btn"><i class="fa fa-pencil"></i>E-FORMS</a>
+									</div>
+									<!--/ End Button -->
+								</div> 
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>

@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "title":"Title 1",
+        "summary":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "body":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "img":"assets/images/800x550.png",
+        "author":"Eneye",
+        "category":"News",
+        "date":"15 April 2017",
+        "publish":false
+    },
+    {
+        "id":2,
+        "title":"Title 2",
+        "summary":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "body":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "img":"assets/images/800x550.png",
+        "author":"Auwal",
+        "category":"News",
+        "date":"15 April 2019",
+        "publish":true
+    },
+    {
+        "id":3,
+        "title":"Title 3",
+        "summary":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "body":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "img":"assets/images/800x550.png",
+        "author":"Auwal",
+        "category":"News",
+        "date":"15 April 2018",
+        "publish":true
+    },
+    {
+        "id":4,
+        "title":"Title 4",
+        "summary":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "body":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "img":"assets/images/800x550.png",
+        "author":"Auwal",
+        "category":"News",
+        "date":"15 May 2020",
+        "publish":true
+    },
+    {
+        "id":5,
+        "title":"Title 5",
+        "summary":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "body":"Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri",
+        "img":"assets/images/800x550.png",
+        "author":"Mike",
+        "category":"News",
+        "date":"15 April 2020",
+        "publish":true
+    }
+]

@@ -1,0 +1,35 @@
+<?php
+    $person = $this->person;
+    //var_dump($person);exit;
+?>
+
+<!-- Start Team Detail Area-->
+<section class="team-details section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-12">
+						<div class="member-detail">
+							<div class="image">
+								<img src="<?=$person['img_url']?>" alt="#">
+							</div>
+							<div class="contact">
+								<ul class="address">
+                                    <?php echo isset($person['email']) && !empty($person['email']) ? '<li><a href="mailto:'.$person['email'].'"><i class="fa fa-envelope"></i>'.$person['email'].'</a></li>':''; ?>
+                                    <?php echo isset($person['phone']) && !empty($person['phone']) ? '<li><i class="fa fa-phone"></i>'.$person['phone'].'</li>':''; ?>
+                                    <?php echo isset($person['cv']) && !empty($person['cv']) ? '<!--a href="'.$person['cv'].'"><i class="fa fa-download"></i>Download CV</li></a-->':''; ?>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-12">
+						<div class="detail-content">
+							<h2><?=$person['name']?></h2>
+							<p class="title"><?=$person['rank']?></p>
+							<p><?php echo isset($person['brief']) && !empty($person['brief']) ? substr($person['brief'], 0, 600):''; ?></p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Team Detail Area-->

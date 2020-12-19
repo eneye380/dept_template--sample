@@ -1,0 +1,37 @@
+<!-- Generates an accordion of mission, vision, philosophy statements -->
+
+<?php  $about_info = $this->about; ?>    
+
+<!--div class="col-lg-10 offset-lg-1 col-12"-->
+<div class="col-12 mt-4" >
+    <div class="faq-content">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <?php if (count($about_info) > 0) {?>
+                <?php $i = 0;?>
+                <?php foreach ($about_info as $about_item) : ?>
+                    <?php if(isset($about_item['item']) && !empty($about_item['item'])) {?>
+        <div class="panel panel-default <?php echo $i==0 ? 'active':'' ?>">
+                <!-- Single Faq -->
+                <div class="faq-heading"  id="w<?php echo $about_item['name']?>">
+                    <h4 class="faq-title">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $about_item['name']?>"><?php echo $about_item['name']?></a>
+                    </h4>
+                </div>
+                <div id="<?php echo $about_item['name']?>" class="panel-collapse collapse <?php echo $i==0 ? 'show':'' ?>" role="tabpanel" aria-labelledby="w<?php echo $about_item['name']?>">
+                <div class="faq-body">
+                    <p><?php echo $about_item['item']?></p>
+                    
+                </div>
+                </div>
+                <!--/ End Single Faq -->
+            </div>
+                        <?php $i = $i + 1;?>
+                    <?php } ?>
+                <?php endforeach ?>
+            <?php } else { ?>
+        <p>No information </p>
+            <?php } ?>
+            
+        </div>
+    </div>
+</div>

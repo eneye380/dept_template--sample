@@ -1,0 +1,17 @@
+{
+    "name": "eneye/dept_template--sample",
+    "authors": [
+        {
+            "name": "eneye380",
+            "email": "a.e.abdulkarim@rgu.ac.uk"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeptTemplate\\": "src/DeptTemplate"
+        }
+    }
+}

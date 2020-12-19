@@ -1,0 +1,130 @@
+[{
+        "id": 1,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Ishaku Adamu",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Executive Officer"
+    },
+    {
+        "id": 2,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Mr. Jimmy Shagba",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Chief Secretariat Assistant"
+    },
+    {
+        "id": 3,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Dauda Ishaku",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Chief Clerical Officer"
+    },
+    {
+        "id": 4,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Z. N. Jangber",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Technologist"
+    }
+    ,
+    {
+        "id": 5,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "J. O. Yawuk",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Technologist I"
+    },
+    {
+        "id": 6,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "B. E. Asuquo (Mrs)",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Technologist"
+    },
+    {
+        "id": 7,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Musa Balarabe",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Technologist I"
+    },
+    {
+        "id": 8,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "John A. Ndaka",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Assistant Technologist"
+    },
+    {
+        "id": 9,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Ibrahim Yusuf",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Technical OOfficer"
+    },
+    {
+        "id": 10,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Murtala Sani",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Laboratory Assistant"
+    },
+    {
+        "id": 11,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Zubairu Mohammed",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Technical Assistant"
+    },
+    {
+        "id": 12,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Aliyu B. Umar",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Craft Man"
+    },
+    {
+        "id": 13,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Aminu Usman",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Assistant House Keeper"
+    },
+    {
+        "id": 14,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Dogara Sale",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Senior Livestock Officer"
+    },
+    {
+        "id": 15,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Nura Salihu",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Craft Man"
+    },
+    {
+        "id": 16,
+        "active": true,
+        "url": "administrative.php?id=",
+        "name": "Habiba Safiyanu Musa",
+        "img_url": "assets/images/people/administrative/80x80.gif",
+        "rank": "Higher Executive Officer"
+    }
+]

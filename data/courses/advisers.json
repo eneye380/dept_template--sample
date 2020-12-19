@@ -1,0 +1,19 @@
+{
+    "Research":{
+        
+    },
+    "Laboratory":[
+     
+
+    ],
+    "Other":[
+        {
+            "position":"100",
+            "coordinator":"Dr. Grace Kia"
+        },
+        {
+            "position":"200",
+            "coordinator":"Dr. Sunday Maidawa"
+        }
+    ]
+}

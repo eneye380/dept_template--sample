@@ -1,0 +1,73 @@
+
+[{
+    "id":1,
+    "active":true,
+    "name": "Prof. J. O. Hambolu",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Professor"
+},{
+    "id":2,
+    "active":true,
+    "name": "Prof. S. A. Ojo",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Professor"
+},{
+    "id":3,
+    "active":true,
+    "name": "Prof. B. I. Onyeanusi",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Professor"
+},{
+    "id":4,
+    "active":true,
+    "name": "Dr. M. H. Sulaiman",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Senior Lecturer"
+},{
+    "id":5,
+    "active":true,
+    "name": "Dr. J. O. Nzalak",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Reader"
+},{
+    "id":6,
+    "active":true,
+    "name": "Dr. J. Imam",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Lecturer I"
+},{
+    "id":7,
+    "active":true,
+    "name": "Dr. A. D. Umosen",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Lecturer I"
+},{
+    "id":8,
+    "active":true,
+    "name": "Dr. M. B Umar",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Senior Lecturer"
+},{
+    "id":9,
+    "active":true,
+    "name": "Dr. M. N. Ali",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Lecturer"
+},{
+    "id":10,
+    "active":true,
+    "name": "Dr. S. M. Maidawa",
+    "img_url": "assets/images/people/academic/80x80.gif",
+    "url":"academic.php?id=",
+    "rank": "Lecturer I"
+}
+]

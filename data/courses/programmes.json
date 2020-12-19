@@ -1,0 +1,27 @@
+[
+    {
+        "id":"dvm",
+        "name":"DVM Veterinary Medicine",
+        "duration":"6 Years",
+        "requirements":""
+    },
+    {
+        "id":"msc",
+        "name":"MSc Veterinary Physiology",
+        "duration":"2 Years",
+        "requirements":"DVM Veterinary Physiology"
+    },
+    {
+        "id":"mphil",
+        "name":"MPhil Veterinary Physiology",
+        "duration":"1 Year",
+        "requirements":"DVM and MSc. in related fields other than Veterinary Physiology."
+    },
+    
+    {
+        "id":"phd",
+        "name":"Ph. D Veterinary Physiology",
+        "duration":"3 Years",
+        "requirements":"DVM, MPhil and MSc inVeterinary Physiology"
+    }
+]

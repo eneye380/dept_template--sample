@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Dr. J. O. Nzalak",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Doctor",
+        "tenure":"2016 - 2020"
+    },
+    {
+        "name": "Prof. Joseph Oladije Hambolu",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"2014 - 2016"
+    },
+    {
+        "name": "Dr. S. O. Salami",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"2009 - 2012"
+    },
+    {
+        "name": "Prof. S. A. Ojo",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"2007-2009"
+    },
+    {
+        "name": "Prof. B. I. Oyeanusi",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"2007-2009"
+    },
+    {
+        "name": "Prof. B. I. Oyeanusi",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"2002-2006"
+    },
+    {
+        "name": "Dr. A. D. Umosen",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Doctor",
+        "tenure":"2001-2002 (Ag. HOD)"
+    },
+    {
+        "name": "Prof. A. Ghaji",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"1996-2000"
+    },
+    {
+        "name": "Prof. J. O Hambolu",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"1994-1996"
+    },
+    {
+        "name": "Prof. A. Ghaji",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"1991-1994"
+    },
+    {
+        "name": "Prof. S. A. Ojo",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"1988-1991"
+    },
+    {
+        "name": "Prof. A. N. Ema",
+        "img_url": "assets/images/hod/80x80.gif",
+        "rank": "Professor",
+        "tenure":"1978-1988"
+    }
+]

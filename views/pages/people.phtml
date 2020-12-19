@@ -1,0 +1,63 @@
+<?php $people = $this->people;?>
+    <!-- Start Team Area -->
+    <section class="team-style2 section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="section-title">
+							<h2><span><?=$this->title?></span></h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+                <?php if (count($people) > 0) {?>
+						<?php foreach ($people as $single_staff) : ?>
+							<?php if (isset($single_staff['active']) && $single_staff['active']) {?>
+                            <div class="col-lg-3 col-md-6 col-12">
+						<!-- Single Team -->
+						<div class="single-team">
+							<div class="image">
+								<img src="<?php echo $single_staff['img_url']; ?>" alt="Image of <?php echo $single_staff['name']; ?>">
+								<a href="<?php echo $single_staff['img_url']; ?>" data-fancybox="photo"><i class="fa fa-search"></i></a>
+							</div>
+							<!--team-content -->
+							<div class="team-content">
+								<?php echo isset($single_staff['url']) && !empty($single_staff['url']) ? '<a href="'.$single_staff['url'].$single_staff['id'].'">':'';?>
+								<h4 class="name"><?php echo $single_staff['name']; ?><span><?php echo $single_staff['rank']; ?></span></h4>
+								<?php echo isset($single_staff['url']) && !empty($single_staff['url']) ? '</a>':'';?>
+							</div>
+						</div>
+						<!--/ End Single Team -->
+					</div>
+							<?php } ?>
+                        <?php endforeach ?>
+                    <?php } else { ?>
+                            <p>No information </p>
+                    <?php } ?>
+					
+					<!--div class="col-lg-3 col-md-6 col-12">
+						<!-- Single Team >
+						<div class="single-team">
+							<div class="image">
+								<img src="http://via.placeholder.com/275x370" alt="#">
+								<a href="http://via.placeholder.com/275x370" data-fancybox="photo"><i class="fa fa-search"></i></a>
+							</div>
+							<!--team-content >
+							<div class="team-content">
+								<h4 class="name">Bambj Loun<span>Human Resources</span></h4>
+								<p>Completely network collaborative web services via user centric initiatives Quickly promote sticky</p>
+								<ul class="social">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!--/ End Single Team >
+					</div-->
+
+				</div>
+			</div>
+		</section>
+		<!--/ End Team Area -->

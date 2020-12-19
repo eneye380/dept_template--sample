@@ -1,0 +1,58 @@
+{
+  
+    "400": [{
+            "code": "VMTR 401",
+            "title": "Diagnostic Techniques in Animal Reproduction",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+
+        }
+    ],
+    "500": [{
+            "code": "VMTR 501",
+            "title": "Genital Disorders",
+            "cu": "2",
+            "summary": "",
+            "semester": ""
+        },
+        {
+            "code": "VMTR 503",
+            "title": "Andrology and Artificial Insemination",
+            "cu": "2",
+            "summary": "",
+            "semester": ""
+        },
+        {
+            "code": "VMTR 502",
+            "title": "Veterinary Obstetrics",
+            "cu": "2",
+            "summary": "",
+            "semester": ""
+        },
+        {
+            "code": "VMTR 512",
+            "title": "Infertility in Domestic Animals",
+            "cu": "2",
+            "summary": "",
+            "semester": ""
+        }
+    ],
+    "600":[
+        {
+            "code": "VMPP601",
+            "title": "VMTR601 Theriogenology Clinics I",
+            "cu": "2",
+            "summary": "",
+            "semester": "1"
+        },
+        {
+            "code": "VMPP602",
+            "title": "Therigenology Clinics II",
+            "cu": "2",
+            "summary": "",
+            "semester": "2"
+        }
+    ]
+    
+}

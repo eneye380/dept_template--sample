@@ -1,0 +1,37 @@
+<section class="about-us section faq">
+            <div class="container">
+                <div class="row">
+                    <!--div class="col-lg-6 col-12">
+                        <div class="single-image overlay"-->
+                            
+                            <!--a href="https://www.youtube.com/watch?v=UalTfOIDQ7M" class="btn video-popup mfp-fade"><i class="fa fa-play"></i></a-->
+                        <!--/div>
+                    </div-->
+                    <?php if(isset($this->history) && !empty($this->history)) {?>
+                    <div class="col-12">
+                        <div class="about-text">
+                            <h2 class="">History</h2>
+                            <img src="assets/images/vet.jpg" alt="#" style="width:45%;float:left;margin-right:1%;margin-bottom:1%;">
+                            <?php echo $this->history?>
+                            
+                            <div class="button">
+                                <a href="undergraduate.php" class="btn">DVM Programme</a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+      
+                    
+                    <!--Accordion Start-->
+        <?php $this->include("../partials/_about-info--accordion.phtml") ?>
+                    <!--/Accordion End-->
+                    
+
+
+
+
+                </div>
+
+            
+            </div>
+        </section>

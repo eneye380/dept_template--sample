@@ -1,0 +1,99 @@
+<?php 
+$courses = $this->courses;
+//var_dump($courses);exit;
+?>
+
+<section class="faq page section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2><span> <?php echo $this->title?> </span></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="row">
+					<div class="col-12">
+						<div class="about-text">
+						<h2>Doctor of Veterinary Medicine - DVM</h2>
+						<p>Duration - 6 years</p>
+						<p>The Doctor of Veterinary Medicine program emphasizes the importance of core training in comparative biology and medicine, including all primary clinical disciplines and domestic animal species. Opportunities exist for elective training across a wide variety of more specialized subjects, such as zoo, exotics, and wildlife medicine, marine sciences, clinical nutrition, and various clinical specialties (cardiology, Theriogenology And Production, theriogenology, surgerya and many Other).</p>
+						<h3>Graduation Requirement</h3>
+						<p>The minimum number of credit units required for graduation by candidate entering 100L is 120, while for those entering at 200 levels is 90. The implication of this is that a student who was admitted at 100 levels must aspire to earn not less than 30 credit units per session. Those who fail to achieve this goal usually end up spending extra sessions in order to qualify for graduation.</p>
+                        <h3>Course Structure</h3>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                
+                ?>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="faq-content">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php if (count($courses) > 0) :?>
+                                    <?php $i = 0;?>
+                                    <?php foreach ($courses as $key => $value) : ?>
+                            <div class="panel panel-default <?php echo $i==0 ? 'active':'' ?>">
+                                    <!-- Single Faq -->
+                                    <div class="faq-heading"  id="w<?php echo $key?>">
+                                        <h4 class="faq-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $key?>"><?php echo $key?> Level Courses</a>
+                                        </h4>
+                                    </div>
+                                    <div id="<?php echo $key?>" class="panel-collapse collapse <?php echo $i==0 ? 'show':'' ?>" role="tabpanel" aria-labelledby="w<?php echo $key?>">
+                                    <div class="faq-body">
+                                        <?php 
+                                        if(is_array($value)) :
+                                            ?>
+
+                                            <!-- Courses output-->
+
+                                            <table class="table table-dark">
+                                            <thead>
+                                            <tr>
+                                              <th>Course Code</th>
+                                              <th>Course Title</th>
+                                              <th>Credit Units</th>
+                                              <th>Semester</th>
+                                            </tr>
+                                            </thead>
+                                            
+                                            <tbody>
+
+                                            <?php foreach ($value as $v => $s) : ?>
+                                              <tr>
+                                                <td><?php echo isset($s['code']) ? $s['code']:'' ?></td>
+                                                <td><?php echo isset($s['title']) ? $s['title']:'' ?></td>
+                                                <td><?php echo isset($s['cu']) ? $s['cu']:'' ?></td>
+                                                <td><?php echo isset($s['semester']) && $s['semester'] == '1' ? 'First':'Second' ?></td>
+                                              </tr>
+                                            <?php endforeach; ?>
+
+                                            </tbody>
+                                            </table>
+
+                                            <!-- /End Course output -->
+
+                                        <?php endif; ?>
+                                    </div>
+                                    </div>
+                                    <!--/ End Single Faq -->
+                                </div>
+                                        <?php $i = $i + 1;?>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                            <p>No information </p>
+                                <?php endif; ?>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End Faqs -->

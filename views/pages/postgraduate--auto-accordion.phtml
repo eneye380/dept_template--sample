@@ -1,0 +1,97 @@
+<?php 
+$courses = $this->courses;
+//var_dump($courses);exit;
+?>
+
+<section class="faq page section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2><span> <?php echo $this->title?> </span></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                	<!-- MSc -->
+					<div class="col-12">
+						<div class="about-text">
+						<h2>Master of Science (MSc) in Theriogenology </h2>
+						<p>Candidate must have satisfactorily completed the course work and guided research study approved by the Supervisory Committee. A minimum number of 25 credit units is required for the MSc and 45 for the PhD including credit units for seminar and research.</p>
+						<p>Research study and Thesis/Dissertation Presentation: Candidates must have satisfactorily completed the course work and guided research study approved by the Supervisory Committee to be externally defended it. Master's degree candidates will be required to complete 6-12 credit units of research while candidates are to offer24credit units (6cu/semester) of research.</p>
+						<p>Seminar: Each postgraduate student is to make a proposal defense and one seminar each semester (1 credit unit/semester) for the duration of his/her study.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <?php
+                
+                ?>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="faq-content">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php if (count($courses) > 0) :?>
+                                    <?php $i = 0;?>
+                                    <?php foreach ($courses as $key => $value) : ?>
+                            <div class="panel panel-default <?php echo $i==0 ? 'active':'' ?>">
+                                    <!-- Single Faq -->
+                                    <div class="faq-heading"  id="w<?php echo $key?>">
+                                        <h4 class="faq-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php echo $key?>"><?php echo $key?> Courses</a>
+                                        </h4>
+                                    </div>
+                                    <div id="<?php echo $key?>" class="panel-collapse collapse <?php echo $i==0 ? 'show':'' ?>" role="tabpanel" aria-labelledby="w<?php echo $key?>">
+                                    <div class="faq-body">
+                                        <?php 
+                                        if(is_array($value)) :
+                                            ?>
+
+                                            <!-- Courses output-->
+
+                                            <table class="table table-dark">
+                                            <thead>
+                                            <tr>
+                                              <th>Course Code</th>
+                                              <th>Course Title</th>
+                                              <th>Credit Units</th>
+                                              <th>Semester</th>
+                                            </tr>
+                                            </thead>
+                                            
+                                            <tbody>
+
+                                            <?php foreach ($value as $v => $s) : ?>
+                                              <tr>
+                                                <td><?php echo isset($s['code']) ? $s['code']:'' ?></td>
+                                                <td><?php echo isset($s['title']) ? $s['title']:'' ?></td>
+                                                <td><?php echo isset($s['cu']) ? $s['cu']:'' ?></td>
+                                                <td><?php echo isset($s['semester']) && $s['semester'] == '1' ? 'First':'Second' ?></td>
+                                              </tr>
+                                            <?php endforeach; ?>
+
+                                            </tbody>
+                                            </table>
+
+                                            <!-- /End Course output -->
+
+                                        <?php endif; ?>
+                                    </div>
+                                    </div>
+                                    <!--/ End Single Faq -->
+                                </div>
+                                        <?php $i = $i + 1;?>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                            <!--p>No information </p-->
+                                <?php endif; ?>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ End Faqs -->
